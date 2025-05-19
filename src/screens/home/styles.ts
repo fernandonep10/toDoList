@@ -16,7 +16,6 @@ export const styles = StyleSheet.create({
   body: {
     backgroundColor: "#1A1A1A",
     flex: 3,
-    marginBottom: 20,
   },
   form: {
     flexDirection: "row",
@@ -34,6 +33,12 @@ export const styles = StyleSheet.create({
     height: 54,
     paddingLeft: 20,
     color: "#F2F2F2",
+    borderWidth: 1,
+    borderColor: "#262626",
+  },
+  taskInputFilled: {
+    borderColor: "#5E60CE",
+    borderWidth: 1,
   },
   buttonAdd: {
     backgroundColor: "#1E6F9F",

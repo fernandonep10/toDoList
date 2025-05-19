@@ -4,7 +4,7 @@ import { StatusBar } from "react-native";
 export default function App() {
   return (
     <>
-      <StatusBar hidden={false} backgroundColor={"#131016"} />
+      <StatusBar hidden={true} backgroundColor="#000" />
       <Home />
     </>
   );
